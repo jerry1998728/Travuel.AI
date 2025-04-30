@@ -2,10 +2,10 @@ import streamlit as st
 import requests
 import pandas as pd
 
-# Hardcoded API Key (Replace with your own key)
-API_KEY = "8a0013e5d23e41d08df224236253101"
+#Weather API Key
+API_KEY = "placeholder"
 
-# Function to get weather forecast
+#Function to get weather forecast
 def get_weather_forecast(location="San Francisco", days=3):
     url = f"http://api.weatherapi.com/v1/forecast.json?key={API_KEY}&q={location}&days={days}&aqi=no&alerts=no"
     
@@ -15,19 +15,13 @@ def get_weather_forecast(location="San Francisco", days=3):
     else:
         return {"error": "Unable to fetch weather data"}
 
-# Streamlit UI
+#Streamlit UI
 st.title("San Francisco Weather Forecast App")
 
-# Remove API Key input field
-# st.text_input("Enter your Weather API Key:")  # DELETE this line
-
-# Remove unnecessary input for city name since it's fixed
-# st.text_input("Enter City Name:", "San Francisco")  # DELETE this line
-
-# User selects the number of forecast days
+#User selects the number of forecast days
 days = st.slider("Select Number of Days for Forecast", min_value=1, max_value=7, value=3)
 
-# Fetch weather forecast
+#Fetch weather forecast
 weather_forecast = get_weather_forecast(days=days)
 
 if "forecast" in weather_forecast:
