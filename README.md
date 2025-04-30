@@ -6,7 +6,7 @@ Travuel.AI is an interactive travel planning chatbot that combines LLM-powered r
 
 ## Features
 
-### ✨ 1. Generative Travel Recommendations (via OpenAI + Pinecone Knowledge Base)
+### 1. Generative Travel Recommendations (via OpenAI + Pinecone Knowledge Base)
 - Ask natural language questions like:
   - “What are hidden gems in San Francisco?”
   - “Top events and restaurants happening next weekend?”
@@ -15,18 +15,18 @@ Travuel.AI is an interactive travel planning chatbot that combines LLM-powered r
   - Extract structured metadata (names, types, descriptions)
   - Return a natural, personalized response
 
-### 🗺️ 2. Smart Itinerary & Route Planner (Powered by Google Maps + Folium)
+### 2. Smart Itinerary & Route Planner (Powered by Google Maps + Folium)
 - Input the places you want to visit → see optimized routes
 - Select transportation mode (driving, walking, transit, biking)
 - Auto-calculates travel time between stops
 - Visualizes routes on a fully interactive map
 
-### 🌦️ 3. 7-Day Weather Forecast (Powered by WeatherAPI)
+### 3. 7-Day Weather Forecast (Powered by WeatherAPI)
 - Auto-detects city from your query
 - Displays temperature (°C & °F) and weather conditions
 - Uses real-time data from [weatherapi.com](https://www.weatherapi.com)
 
-### 💱 4. Live Currency Conversion (Powered by Fixer.io)
+### 4. Live Currency Conversion (Powered by Fixer.io)
 - Sidebar tool for checking real-time exchange rates
 - Converts between EUR, USD, GBP, and more
 
