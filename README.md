@@ -1,12 +1,13 @@
 # 🌍 Travuel.AI — Your Generative AI Travel Assistant ✈️
 
-Travuel.AI is an interactive travel planning chatbot that combines LLM-powered recommendations with real-time external APIs to deliver a personalized, visual, and information-rich travel experience. Built using Streamlit, it lets users explore destinations, view custom travel routes, analyze weather, and convert currencies—all in one unified web-based application.
+Travuel.AI is an interactive travel planning chatbot that combines LLM-powered recommendations with real-time external APIs to deliver a personalized, visual, and information-rich travel experience.
+Built with Streamlit for users to explore destinations, view custom travel routes, analyze weather, and convert currencies—all in one unified web-based application.
 
 ---
 
 ## Features
 
-### 1. Generative Travel Recommendations (via OpenAI + Pinecone Knowledge Base)
+### 1. Generative Travel Recommendations (Powered by OpenAI + Pinecone Knowledge Base)
 - Ask natural language questions like:
   - “What are hidden gems in San Francisco?”
   - “Top events and restaurants happening next weekend?”
