@@ -39,11 +39,11 @@ from pinecone import Pinecone
 import re
 
 #API Keys
-FIXER_API_KEY = "b76c3f0667d5e880a2e40cac232b9c0b"
-GOOGLE_MAPS_API_KEY = "AIzaSyBNelRNmB2AmbH8E_29bs1MA-KFQL2LnSo"
-WEATHER_API_KEY = "8a0013e5d23e41d08df224236253101"
-OPENAI_API_KEY = "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"
-PINECONE_API_KEY = "pcsk_7FSrbr_5ZXTGbjRENDPSbGMEQM7i9FPk9YmB9heXjCYStjjM1UnDC88eLqoc2cA9sZYszS"
+FIXER_API_KEY = "placeholder"
+GOOGLE_MAPS_API_KEY = "placeholder"
+WEATHER_API_KEY = "placeholder"
+OPENAI_API_KEY = "placeholder"
+PINECONE_API_KEY = "placeholder"
 
 #Initialize Google Maps API Client
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
